@@ -1,0 +1,2 @@
+# Deeplearning_basis
+DLの基本的なネットワークを自力で実装する
