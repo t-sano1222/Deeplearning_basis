@@ -3,5 +3,5 @@ services:
     python-env:
         build: .
         volumes:
-            - ./../time_series/:/work/time_series
+            - ./../mlp/:/work/mlp
         tty: true
