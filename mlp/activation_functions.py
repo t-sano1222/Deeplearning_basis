@@ -29,4 +29,4 @@ def softmax(x):
     Returns:
         The anser of softmax function for x
     """
-    return np.exp(x)/np.sum(np.exp(x))
+    return np.exp(x)/np.sum(np.exp(x), axis=1, keepdims = True)

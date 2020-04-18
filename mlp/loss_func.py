@@ -30,4 +30,4 @@ def cross_entropy(y, t):
     Returns:
         Cross entropy error
     """
-    return -np.sum(t * np.log(y * 1e-7))
+    return -np.sum(t * np.log(y + 1e-7))
